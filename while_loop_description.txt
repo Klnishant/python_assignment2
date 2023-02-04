@@ -1,0 +1,29 @@
+5.While and when to use while loop in python give a detail description with example?
+Ans-->In Python, the while loop is used to repeatedly execute a block of code as long as a certain condition is met. The syntax for a while loop is as follows:
+while condition:
+    # code to be executed
+
+The condition is evaluated before each iteration of the loop. If the condition is True, the code inside the loop will be executed. Once the condition is False, the loop will terminate and the program will continue with the next line of code after the loop.
+
+Here's an example that demonstrates how to use a while loop in Python:
+
+# Use a while loop to print the numbers from 1 to 10
+counter = 1
+while counter <= 10:
+    print(counter)
+    counter += 1
+
+This code will produce the following output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+We should use a while loop when we want to repeatedly execute a block of code as long as a certain condition is met. The while loop is especially useful when we don't know in advance how many iterations the loop will need to perform, or when the number of iterations is determined by user input or some other external condition.
+
+However, it's important to be careful when using a while loop. If the condition is never met, the loop will run forever, creating an infinite loop. To avoid this, we need to make sure that the condition will eventually become False.
